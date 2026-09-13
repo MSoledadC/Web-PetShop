@@ -19,7 +19,7 @@ body {
 
 .contenedor-logo {
     display: flex;
-    flex-direction: row;
+    padding: 15px;
 }
 
 .img-titulo {
@@ -44,6 +44,10 @@ body {
     background-color: #F0A83E;
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 0px 1px 3px 0px #00000040;
+    height: 54px;
+    align-items: center;
 }
 
 ul li {
@@ -60,6 +64,10 @@ a {
     display: none;
 }
 
+.icono-menu {
+    color: #FFFFFF;
+}
+
 .hero {
     background-image: url(../img/Fondo.jpg);
     width: 100vw;
@@ -68,18 +76,39 @@ a {
     background-position-x: 90px;
     background-size: 190%;
     background-position-y: 40%;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .frase-hero {
     background-color: #FFFFFF;
     color: #3C2313;
     display: inline;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
 }
 
+.frase2-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 
 .btn-hero {
     color: #FFFFFF;
     background-color: #F0A83E;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    padding: 15px 25px;
+    border-radius: 10px;
 }
 
 .produtos-destacados {
