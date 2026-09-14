@@ -138,6 +138,36 @@ h3 {
     font-weight: 700;
 }
 
+.btns-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.btns-form p {
+    display: block;
+    width: 48%;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.btn-resetear {
+    background-color: #8A8787;
+    color: #FFFFFF;
+}
+
+.btn-enviar {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+}
+
 .newsletter {
     display: flex;
     flex-direction: column;
