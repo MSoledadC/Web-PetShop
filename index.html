@@ -85,14 +85,22 @@
       </section>
       <section>
         <div>
-          <h3>Contáctanos</h3>
-          <div class="formulario"><p>Nombre y Apellido</p>
-          <p>Ingresá tu correo electrónico</p>
-          <p>Teléfono</p>
-        </div>
-        <div class="btns-form" >
-          <p class="btn-resetear" >Resetear</p>
-          <p class="btn-enviar">Enviar</p></div>
+          <form action="index.html" method="get">
+            <h3>Contáctanos</h3>
+            <div >
+                <input class="formulario" type="text" name="nombre" placeholder="Nombre y Apellido" />
+                </div>
+              <div >
+                <input class="formulario" type="email" name="email" placeholder="Ingresa tu correo Electrónico" />
+              </div>
+              <div>
+                <input class="formulario" type="tel" name="telefono" placeholder="Teléfono" />
+              </div>
+            <div class="btns-form" >
+              <button class="btn-resetear" type="reset">Resetear</button>
+              <button class="btn-enviar" type="submit">Enviar</button>
+            </div>
+          </form>
       </section>
       <section class="newsletter">
         <div class="textos-new">
@@ -106,36 +114,25 @@
       </section>
     </main>
     <footer>
-      <div>
-        <div>
+      <div class="contenedor-footer">
           <div class="contenedor-logo">
             <img class="img-titulo" src="img/Dog.png" alt="gato" />
             <p class="titulo1">Front</p>
             <p class="titulo2">Cat&Dog</p>
             <img class="img-titulo" src="img/Dog.png" alt="dog" />
           </div>
-        </div>
-        <div>
           <div>
-            <i></i>
-            <p>Localidad</p>
+            <i class="fa-solid fa-location-pin icon-footer"></i><span>Localidad</span>
             <p>Calle - provincia</p>
           </div>
-        </div>
-        <div>
           <div>
-            <i></i>
-            <p>Teléfono</p>
-            <p>Número de teléfono</p>
+              <i class="fa-solid fa-phone icon-footer"></i><span>Teléfono</span>
+              <p>Número de teléfono</p>
           </div>
-        </div>
-        <div>
           <div>
-            <i></i>
-            <p>Correo Electrónico</p>
+            <i class="fa-solid fa-envelope icon-footer"></i><span>Correo Electrónico</span>
             <p>Dirección de correo</p>
           </div>
-        </div>
       </div>
       <div class="footer-bottom"><span>Todos los derechos reservados Front End</span></div>
     </footer>
