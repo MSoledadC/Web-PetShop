@@ -246,17 +246,30 @@ footer {
     padding: 30px 20px;
 }
 
-.icon-footer{
+.bloque-datos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon-footer {
     background-color: #8A8787;
     border-radius: 50%;
     font-size: 30px;
     border: 3px solid #3c231349;
-    color:#FFFFFF;
-    width: 65px;
-    height: 65px;
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+}
+
+.contenedor-datos {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
 }
 
 .footer-bottom {
