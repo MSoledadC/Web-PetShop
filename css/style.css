@@ -10,11 +10,10 @@ body {
 
 .header-top {
     display: none;
-}
-
-.top-nav {
     background-color: #222222;
+    padding: 5px 20px;
     color: #F3F3F3;
+    font-size: 10px;
 }
 
 .contenedor-logo {
@@ -151,6 +150,8 @@ form {
     width: 80%;
     margin-bottom: 10px;
     text-align: start;
+    border: none;
+    outline: none;
 }
 
 .btns-form {
@@ -162,8 +163,6 @@ form {
     padding: 10px;
 }
 
-
-
 .btn-resetear {
     background-color: #8A8787;
     color: #FFFFFF;
@@ -172,6 +171,8 @@ form {
     width: 50%;
     margin-bottom: 10px;
     text-align: center;
+    border: none;
+    outline: none;
 }
 
 .btn-enviar {
@@ -182,6 +183,8 @@ form {
     width: 50%;
     margin-bottom: 10px;
     text-align: center;
+    border: none;
+    outline: none;
 }
 
 .newsletter {
@@ -309,6 +312,37 @@ footer p {
 @media (min-width: 780px) {}
 
 @media (min-width: 1024px) {
+
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 40px;
+    }
+
+    .top-nav {
+        padding-left: 40px;
+    }
+
+    .idiomas {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    nav .icono-menu {
+        display: none;
+    }
+
+    .contenedor-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
     .hero {
         background-position: 0px -75px;
         background-size: 100%;
@@ -369,7 +403,7 @@ footer p {
 
     .texto-sub {
         font-size: 25px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
     .email {
