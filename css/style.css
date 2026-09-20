@@ -33,7 +33,7 @@ body {
     font-weight: 700;
 }
 
-.titulo1 {
+.titulo2-logo {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
@@ -134,7 +134,7 @@ a {
 
 }
 
-h3 {
+form h3 {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -298,8 +298,10 @@ footer p {
     font-size: 13px;
 }
 
-.titulo2 {
+.titulo2-footer {
     color: #F0A83E;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 /* Medias*/
@@ -333,6 +335,71 @@ footer p {
         flex-direction: row;
         justify-content: space-evenly;
         gap: 10px;
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+
+    .produtos-destacados h1 {
+        margin: 20px 0;
+    }
+
+    .contenedor-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form h3 {
+        padding-bottom: 25px;
+    }
+
+    .newsletter {
+        flex-direction: row;
+        padding: 20px 50px;
+    }
+
+    .caja-textos {
+        width: 50%;
+    }
+
+    .texto-sub {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .email {
+        width: 50%;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .ingreso-mail {
+        width: 50%;
+    }
+
+    .btn-resetear {
+        width: 110px;
+    }
+
+    .btn-enviar {
+        width: 110px;
+    }
+
+    .contenedor-footer {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    footer .titulo2-footer {
+        font-size: 20px;
+    }
+
+    footer .titulo2-logo {
+        font-size: 20px;
     }
 }
