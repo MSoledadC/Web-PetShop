@@ -58,6 +58,12 @@ a {
     text-decoration: none;
 }
 
+input,
+button {
+    border: none;
+    outline: none;
+}
+
 .contenedor-menu {
     display: flex;
     flex-direction: column;
@@ -152,6 +158,7 @@ form {
     text-align: start;
     border: none;
     outline: none;
+    color: #FFFFFF;
 }
 
 .btns-form {
@@ -171,8 +178,6 @@ form {
     width: 50%;
     margin-bottom: 10px;
     text-align: center;
-    border: none;
-    outline: none;
 }
 
 .btn-enviar {
@@ -183,8 +188,6 @@ form {
     width: 50%;
     margin-bottom: 10px;
     text-align: center;
-    border: none;
-    outline: none;
 }
 
 .newsletter {
@@ -307,7 +310,45 @@ footer p {
     font-size: 16px;
 }
 
-/* Medias*/
+/* Selectores*/
+
+.btn-hero:hover {
+    border: 2px solid #F0A83E;
+    background-color: #3C2313;
+}
+
+.formulario:hover {
+    border: 2px solid #F0A83E;
+}
+
+.btn-resetear:hover {
+    background-color: #F0A83E;
+    border: 2px solid #8A8787;
+}
+
+.btn-enviar:hover {
+    background-color: #8A8787;
+    border: 2px solid #F0A83E;
+}
+
+.ingreso-mail:hover {
+    border: 2px solid #3C2313;
+}
+
+.btn-new:hover {
+    border: 2px solid #3C2313;
+    background-color: #8A8787;
+}
+
+nav ul li:hover {
+    color: #3C2313;
+}
+
+nav ul li:hover i {
+    color: #8A8787;
+}
+
+/* Medidas*/
 
 @media (min-width: 780px) {}
 
@@ -394,7 +435,10 @@ footer p {
 
     .newsletter {
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         padding: 20px 50px;
+        width: 100%;
     }
 
     .caja-textos {
