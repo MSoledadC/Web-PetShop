@@ -78,7 +78,6 @@ button {
 .hero {
     background-image: url(../img/Fondo.jpg);
     width: 100%;
-    background-size: cover;
     height: 440px;
     background-size: 226%;
     background-position-x: left;
