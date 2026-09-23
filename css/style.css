@@ -454,6 +454,8 @@ nav ul li:hover i {
         width: 50%;
         justify-content: flex-end;
         gap: 15px;
+        display: flex;
+        flex-direction: row;
     }
 
     .ingreso-mail {
