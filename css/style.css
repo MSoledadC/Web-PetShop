@@ -323,12 +323,12 @@ footer p {
 }
 
 .btn-resetear:hover {
-    background-color: #F0A83E;
-    border: 2px solid #8A8787;
+    background-color: #3C2313;
+    border: 2px solid #F0A83E;
 }
 
 .btn-enviar:hover {
-    background-color: #8A8787;
+    background-color: #3C2313;
     border: 2px solid #F0A83E;
 }
 
