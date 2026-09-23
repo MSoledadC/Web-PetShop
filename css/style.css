@@ -80,7 +80,8 @@ button {
     width: 100%;
     background-size: cover;
     height: 440px;
-    background-size: 210%;
+    background-size: 226%;
+    background-position-x: left;
     background-position-y: 40%;
     position: relative;
     margin-bottom: 20px;
