@@ -20,6 +20,7 @@ body {
     display: flex;
     padding: 15px;
     justify-content: center;
+    align-items: center;
 }
 
 .img-titulo {
@@ -232,6 +233,7 @@ form {
     background-color: #FFFFFF;
     padding: 15px 21px;
     border-radius: 10px;
+    width: 50%;
 }
 
 .btn-new {
