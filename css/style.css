@@ -71,6 +71,10 @@ button {
     display: none;
 }
 
+.contenedor-menu a {
+    color: #FFFFFF;
+}
+
 .icono-menu {
     color: #FFFFFF;
 }
@@ -341,7 +345,7 @@ footer p {
     background-color: #8A8787;
 }
 
-nav ul li:hover {
+nav ul li:hover a {
     color: #3C2313;
 }
 
@@ -349,7 +353,7 @@ nav ul li:hover i {
     color: #8A8787;
 }
 
-/* Medidas*/
+/* Medias Q*/
 
 @media (min-width: 780px) {}
 
