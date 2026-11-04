@@ -46,9 +46,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
+    min-height: 54px;
     box-shadow: 0px 1px 3px 0px #00000040;
-    height: 54px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -65,14 +66,51 @@ button {
     outline: none;
 }
 
+nav {
+    display: none;
+    width: 100%;
+
+    order: 3;
+    background-color: #F0A83E;
+
+    padding-bottom: 15px;
+}
+
+nav.open {
+    display: block;
+}
+
 .contenedor-menu {
     display: flex;
     flex-direction: column;
-    display: none;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+
+}
+
+.contenedor-menu i {
+    color: #FFFFFF;
 }
 
 .contenedor-menu a {
     color: #FFFFFF;
+}
+
+.contenedor-menu li {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+
+}
+
+.btn-menu {
+    background: transparent;
+    cursor: pointer;
 }
 
 .icono-menu {
@@ -356,7 +394,52 @@ nav ul li:hover i {
 
 /* Medias Q*/
 
-@media (min-width: 780px) {}
+@media (min-width: 780px) {
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 40px;
+    }
+
+    .top-nav {
+        padding-left: 40px;
+    }
+
+    .idiomas {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+        padding: 0;
+    }
+
+    .titulo-nav {
+        height: 54px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+
+    .contenedor-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #FFFFFF;
+        justify-content: flex-end;
+    }
+}
 
 @media (min-width: 1024px) {
 
@@ -377,9 +460,23 @@ nav ul li:hover i {
         gap: 5px;
     }
 
-    nav .icono-menu {
+    .btn-menu {
         display: none;
     }
+
+    nav {
+        display: block;
+        width: auto;
+        padding: 0;
+    }
+
+    .titulo-nav {
+        height: 54px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
 
     .contenedor-menu {
         display: flex;
@@ -388,6 +485,7 @@ nav ul li:hover i {
         font-size: 13px;
         font-weight: 400;
         color: #FFFFFF;
+        justify-content: flex-end;
     }
 
     .hero {
