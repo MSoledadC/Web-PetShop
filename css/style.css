@@ -69,10 +69,8 @@ button {
 nav {
     display: none;
     width: 100%;
-
     order: 3;
     background-color: #F0A83E;
-
     padding-bottom: 15px;
 }
 
@@ -433,11 +431,16 @@ nav ul li:hover i {
     .contenedor-menu {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 15px;
         font-size: 13px;
         font-weight: 400;
         color: #FFFFFF;
         justify-content: flex-end;
+    }
+
+    .contenedor-menu li {
+        width: auto;
+        padding: 0;
     }
 }
 
